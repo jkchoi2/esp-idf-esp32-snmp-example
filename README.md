@@ -9,6 +9,8 @@
 https://github.com/leandroadonis86/esp32_simple_snmpv2c_agent/tree/master
 https://github.com/ubirch/ubirch-esp32-snmp-agent/tree/master
 
+* sdk configuration editor에서 반드시 LWIP/Enable LWIP statistics 항목을 체크하여야 함니다. 그렇지 않으면, 빌드 지옥에서 헤어나지 못할것입니다.
+
 PC에 iReasoning MIB Browser를 이용하여 테스트 하였고, main.c에서 led toggle을 시키고, snmp로 값을 읽어보면 0/1로 바뀌는것을 확인 하였습니다.
  
 ## build후 size
