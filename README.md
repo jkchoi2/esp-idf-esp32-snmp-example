@@ -1,6 +1,6 @@
 # ESP32-P4 snmp-example
 
-!./screenshot/test-mib.png
+<img src="screenshot/test-mib.png">
 
 이 예제는 ESP32-P4보드에 Hellow World예제에 snmp를 포팅한 예제입니다. (대부분의 esp32보드에서도 정상동작할것 입니다. )
 이 예제는 ethernet을 이용한 snmp 예제입니다.
